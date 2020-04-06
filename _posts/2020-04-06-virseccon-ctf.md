@@ -2,7 +2,7 @@
 title: VirSecCon CTF
 layout: post
 category: writeup
-max_toc_level: 2
+toc_level: 2
 ---
 
 #  VirSecCon 2020 CTF Write-Up
