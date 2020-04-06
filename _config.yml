@@ -2,7 +2,7 @@
 title: nbaertsch
 owner: "nix_knack"
 url: "https://nbaertsch.github.io"
-baseurl: "/nix_knack"
+baseurl: "/"
 permalink: /:title/
 description: ""
 markdown: kramdown
