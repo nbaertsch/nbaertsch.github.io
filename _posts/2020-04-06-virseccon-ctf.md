@@ -348,7 +348,7 @@ People are dicks...
 ### Chasm (60) :trophy:
 > The Internet’s new echo server. Break it.
 
-We are given `nc jh2i.com 50006`
+We are given `nc jh2i.com 50006`  
 <br/>
 Greeted with:
 ```sh

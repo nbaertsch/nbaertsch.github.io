@@ -5,10 +5,9 @@ toc: false
 home_btn: true
 btn_text: true
 footer: true
-title: ""
+title: "-- Writeups n'at --"
 author: ""
 permalink: /
 ---
 
-# PERSONAL HOMEPAGE
-Writeups I guess, or I might just post github links.
+A home for my write-ups, and a consolidation of my social media links.
