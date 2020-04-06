@@ -4,9 +4,8 @@ layout: post
 ---
 
 # Jekyll Setup
->
 > Hello world, heres how to build a Jekyll site like this one.
->
+
 <br/>
 
 ## Ruby Envioronment
