@@ -1,6 +1,7 @@
 ---
 title: VirSecCon CTF
 layout: post
+category: writeup
 ---
 
 #  VirSecCon 2020 CTF Write-Up
