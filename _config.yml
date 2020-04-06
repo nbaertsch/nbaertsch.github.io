@@ -1,6 +1,6 @@
 ## Settings
 title: nbaertsch
-owner: "nix_knack"
+owner: "Noah Baertsch"
 url: "https://nbaertsch.github.io"
 baseurl: "/"
 permalink: /:title/

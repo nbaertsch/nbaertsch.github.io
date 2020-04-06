@@ -1,6 +1,7 @@
 ---
 title: Hello World
 layout: post
+encrypted_text: true
 ---
 
 #Jekyll Setup
@@ -27,4 +28,10 @@ Install Jekyll
 gem install jekyll bundler
 ```
 
-Theme is [Project-Negya]{http://jekyllthemes.org/themes/project-negya/}
+
+Theme is [Project-Negya](http://jekyllthemes.org/themes/project-negya/)
+
+Decrypt with this key: 1234567890123456
+<p class = "encrypted" id = "Q32hJFHSVLD6rSqnahJA9WxVj9koFEThsvclAnFq97g=">
+Encrypted text.
+</p>
