@@ -565,15 +565,15 @@ Exception: EOL while scanning string literal (<string>, line 1)
 ### Countdown (60) :trophy:
 > We hear something beeping... is there something in the oven?
 
-We are told to conect to this address `http://jh2i.com:50036`.
+We are told to conect to this address `http://jh2i.com:50036`.  
 <br/>
-This one has us looking at a static html page with alink to a `defuse.php` script.
+This one has us looking at a static html page with alink to a `defuse.php` script.  
 <br/>
 Click it, we are told we are "too late".  
 <br/>
-If you look for cookies in the dev options pane you see defuse_time.
+If you look for cookies in the dev options pane you see defuse_time.  
 <br/>
-Set that to a a large number and see what happens.
+Set that to a a large number and see what happens.  
 <br/>
 :checkered_flag: `LLS{saving_lives_with_cookies}`
 <br\>
@@ -716,7 +716,7 @@ We are given a `passwd` and `shadow` file.  This should be straightforward with 
 sudo apt install hashcat
 ```
 <br/>
-Run `clinfo` to make sure your preffered cracking device is able to run OpenCL.
+Run `clinfo` to make sure your preffered cracking device is able to run OpenCL.  
 <br/>
 Okay, grab the password hash from `shadow` and put it in its own file, `hash`.
 ```sh
