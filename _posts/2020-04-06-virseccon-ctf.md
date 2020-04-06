@@ -653,8 +653,8 @@ LLS{you_really_can_see_in_the_dark}
 ```
 <br/>
 :checkered_flag: `LLS{you_really_can_see_in_the_dark}`
-<br\>
-<br\>
+<br/>
+<br/>
 ### Sequelitis (100) :x:
 
 ### Dairy Products (100) :x:
