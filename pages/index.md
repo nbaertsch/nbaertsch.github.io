@@ -5,9 +5,11 @@ toc: false
 home_btn: true
 btn_text: true
 footer: true
-title: "-- Writeups n'at --"
+title: ""
 author: ""
 permalink: /
 ---
+
+# Writeups n'at
 
 A home for my write-ups, and a consolidation of my social media links.
