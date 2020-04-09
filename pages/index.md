@@ -12,4 +12,6 @@ permalink: /
 
 # Writeups n'at
 
-A home for my write-ups, and a consolidation of my social media links.
+<div style="text-align: center">
+	A home for my write-ups, and a consolidation of my social media links.
+</div>
