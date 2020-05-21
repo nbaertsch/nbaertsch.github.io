@@ -1,5 +1,5 @@
 ---
-title: Try Hack Me - ccpentesting
+title: Try Hack Me - Ice
 layout: post
 category: writeup
 ---
