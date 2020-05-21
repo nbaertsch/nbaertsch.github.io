@@ -1,5 +1,5 @@
-## Settings
-title: ""
+subl## Settings
+title: "nbaertsch"
 owner: "nixknack"
 url: "https://nbaertsch.github.io"
 baseurl: "/"
@@ -16,7 +16,7 @@ linkedin: "noah-baertsch-9a23b9119"
 twitter: "nix_knack"
 # path to: css/, fonts/, img/ and js/
 assets_path: "/assets" # i.e. "/assets" 
-statement: "Try harder"
+statement: "Whats Enumeration?"
 # default max toc levels: 1 - 6 (h1 - h6)
 toc_level: 3
 # texts randomly displayed in background
