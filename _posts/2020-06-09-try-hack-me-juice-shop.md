@@ -123,7 +123,7 @@ Like the hint says, search the js code for "Admin".
 2. Access someone else's basket    
 <br/>
 
-Change the basket id (in session storage) ising developer tools.
+Change the basket id (in session storage) using developer tools.
 <img src="../assets/img/thm/juiceshop/bid.png">
 <br/>
 
@@ -131,6 +131,8 @@ Change the basket id (in session storage) ising developer tools.
 <br/>
 
 Use the admin page from question 1.  The admin gave his own site a 5-star review, delete to complete the challenge.
+<br/>
+
 <img src="../assets/img/thm/juiceshop/5star.png">
 <br/>
 
