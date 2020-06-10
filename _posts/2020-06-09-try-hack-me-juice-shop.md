@@ -21,7 +21,7 @@ The first challenge presented to us is leveraging a SQL injection to log in as t
 While this doesn't get us logged in, it shows that that we can break, and therefore manipulate, the sql query. We also solve the challenge *Error Handling: (Provoke an error that is not very gracefully handled.)*
 <br/>
 
-<img src="../assets/img/thm/juiceshop/sqli2.png">
+<img src="../assets/img/thm/juiceshop/sql2.png">
 <br/>
 
 This is a very basic SQLi, that will get us logged in as the admin user. Password here can be anything.
