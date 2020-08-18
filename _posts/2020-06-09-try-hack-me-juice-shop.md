@@ -51,7 +51,7 @@ However I had to look up the answer to the security question. (I have never seen
 2. What is the administrator password?
 <br/>
 
-For this question, it is probably easier to guess until youn get it, or use a a very basic wordlist with burp intruder.  However, I am an idiot and couldn't guess it, and intruder as **super** limited unless you have a license for the pro version of burp. (Note to learn ZAP)
+For this question, it is probably easier to guess until you get it, or use a a very basic wordlist with burp intruder.  However, I am an idiot and couldn't guess it, and intruder as **super** limited unless you have a license for the pro version of burp. (Note to learn ZAP)
 <br/>
 
 While mucking around on the site, you will notice rest api calls being made.  One such endpoint is
