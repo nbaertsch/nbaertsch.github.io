@@ -103,12 +103,20 @@ Paranoid Fish (pafish) is "a demonstration tool that employs several techniques 
 <img src="../assets/img/kvm/pafish/pafish-kvm.png">
 <br/>
 
+We can also quickly get rid of the CPUID hypervisor feature bit with ``<feature policy='disable' name='hypervisor'/>``.  Note you will see a performance because you no-longer get hyperv enlightenments in your guest.
+<img src="../assets/img/kvm/pafish/pafish-hypervisor-disabled.png">
+<br/>
+
 # Patching Strings in QEMU
 
 
 # Further Reading
 - [KVM CPUID bits](https://www.kernel.org/doc/html/latest/virt/kvm/cpuid.html)
+- [A good description of CPU pinning](https://mathiashueber.com/performance-tweaks-gaming-on-virtual-machines/)
+- [tsc timer passthrough](https://www.reddit.com/r/VFIO/comments/asf3tg/drastic_stuttering_reduction_using_invtsc_feature/) (This might only work on intel chips, vm fails to boot on my setup)
+- 
 
 # Resources
 - [kernel/QEMU/libvirt/virtmanager install and patching script for Ubuntu](https://github.com/doomedraven/Tools/blob/master/Virtualization/kvm-qemu.sh)
 - [String patching script for centos](https://github.com/ctxis/CAPE/files/2133853/kvm-qemu-antivm-patch.sh.txt)
+- 
