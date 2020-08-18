@@ -12,14 +12,14 @@ Now, there is a whole argument going on about the veracity of the numbers that B
 <br/>
 
 # Disclaimer
-For someone like myself who has zero interest in installing Windows natively, the only option to play certain games is to try to hide the fact that the machine is virtualized.  Before we begin, I have a disclaimer for anyone wanting to follow in my footsteps: it is always going to be easier to detect a vm than to hide it.  Researchers can only patch VM detection methods reflexively.  There are many differernt approaches to detecting a sandboxed environment and if you use the following methods to evade detection by anti-cheat, odds are good that they will eventually update their detection methods and you will have accounts banned.  I also want to make it clear that I am not an expert.  These methods were aggregated from various sources on the internet and I am simply documenting my experience(for myself because no-one reads this lol).
+For someone like myself who has zero interest in installing Windows natively, the only option to play certain games is to try to hide the fact that the machine is virtualized.  Before we begin, I have a disclaimer for anyone wanting to follow in my footsteps: it is always going to be easier to detect a vm than to hide it.  Researchers can only patch VM detection methods reflexively.  There are many differernt approaches to detecting a sandboxed environment and if you use the following methods to evade detection by anti-cheat, odds are good that they will eventually update their detection methods and you will have accounts banned.  I also want to make it clear that I am not an expert.  These methods were aggregated from various sources on the internet and I am simply documenting my experience (for myself because no-one reads this lol).
 <br/>
 
-I was inspired by [this reddit post](https://www.reddit.com/r/VFIO/comments/i071qx/spoof_and_make_your_vm_undetectable_no_more/) and am using the anti-detection methods mentioned there.
+I was inspired by [this reddit post](https://www.reddit.com/r/VFIO/comments/i071qx/spoof_and_make_your_vm_undetectable_no_more/) and am using the anti-detection methods mentioned there and piecemealed from elsewhere on the internet.
 <br/>
 
 # The Kernel - intercepting RDTSC exit calls
-Recently a patch for the 5.7.11 kernel was released that intercepts RDTSC cpu exit calls. [This](https://github.com/SamuelTulach/BetterTiming) github repo has the patch for 5.7.11, but I'm on 5.8.1, so instead of downgrading the kernel I updated the patch which can be found [here](https://github.com/nbaertsch/BetterTiming/tree/5.8.1).
+Recently a patch for the 5.7.11 kernel was released that intercepts RDTSC cpu exit calls. [This](https://github.com/SamuelTulach/BetterTiming) github repo has the patch for 5.7.11, but I'm on 5.8.1, so instead of downgrading the kernel I updated the patch which can be found [here](https://github.com/nbaertsch/BetterTiming/tree/5.8.1). It seems to work fine on the updated kernel version.
 <br/>
 
 Grab the 5.8.1 [linux kernel source code](https://www.kernel.org/):
@@ -49,7 +49,7 @@ tar -xvf linux-5.8.1.tar
 ```
 <br/>
 
-Apply patch...
+[Apply](https://www.kernel.org/doc/html/v4.18/process/applying-patches.html) this [patch](https://github.com/nbaertsch/BetterTiming/tree/5.8.1)...
 
 Use Arch default ``.config``:
 ```sh
@@ -93,10 +93,22 @@ Reboot the system and verify that your vm boots properly.
 
 # Paranoid Fish
 Paranoid Fish (pafish) is "a demonstration tool that employs several techniques to detect sandboxes and analysis environments in the same way as malware families do".  Check out the projects [github repo](https://github.com/a0rtega/pafish) for more info.
+<br/>
 
 ## Before KVM RDTSC patch
-
+<img src="../assets/img/kv/pafish/pafish-orig">
+<br/>
 
 ## After KVM RDTSC patch
 <img src="../assets/img/kvm/pafish/pafish-kvm.png">
 <br/>
+
+# Patching Strings in QEMU
+
+
+# Further Reading
+- [KVM CPUID bits](https://www.kernel.org/doc/html/latest/virt/kvm/cpuid.html)
+
+# Resources
+- [kernel/QEMU/libvirt/virtmanager install and patching script for Ubuntu](https://github.com/doomedraven/Tools/blob/master/Virtualization/kvm-qemu.sh)
+- [String patching script for centos](https://github.com/ctxis/CAPE/files/2133853/kvm-qemu-antivm-patch.sh.txt)
