@@ -96,7 +96,7 @@ Paranoid Fish (pafish) is "a demonstration tool that employs several techniques 
 <br/>
 
 ## Before KVM RDTSC patch
-<img src="../assets/img/kvm/fooling-pafish/pafish-orig">
+<img src="../assets/img/kvm/fooling-pafish/pafish-orig.png">
 <br/>
 
 ## After KVM RDTSC patch
