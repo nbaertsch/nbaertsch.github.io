@@ -56,11 +56,11 @@ makepkg -si
 <br/>
 
 # Final Results:
-<img src=../assets/img/kvm/fooling-pafish/pafish-clear-1.png>
+<img src="../assets/img/kvm/fooling-pafish/pafish-clear-1.png">
 <br/>
-<img src=../assets/img/kvm/fooling-pafish/pafish-clear-2.png>
+<img src="../assets/img/kvm/fooling-pafish/pafish-clear-2.png">
 <br/>
-<img src=../assets/img/kvm/fooling-pafish/device-manager-qemu-strings.png>
+<img src="../assets/img/kvm/fooling-pafish/device-manager-qemu-strings.png">
 <br/>
 
 ..now to compile Al-Khaser..
