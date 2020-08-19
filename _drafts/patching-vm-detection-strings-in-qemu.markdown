@@ -1,5 +1,5 @@
 ---
-title: Patching VM Detection Strings in QEMU
+title: Fooling pafish (part 2)
 layout: post
 category: post
 ---
@@ -17,7 +17,7 @@ sudo pacman  -Rsn qemu
 Then grab the files from [qemu-git in the AUR](https://aur.archlinux.org/packages/qemu-git/).  **Don't build and install from the AUR**.  Just get a snapshot and untar it.
 <br/>
 
-Add in the following patch to the PKGBUILD:
+I might tar it up and put it on github but for now, add in the following patch to the PKGBUILD:
 ```sh
 ...
 
@@ -53,3 +53,10 @@ Build and install. Double check you have appropriate MAKEFLAGS set in /etc/makep
 ```sh
 makepkg -si
 ```
+<br/>
+
+# Final Results:
+<img src=../assets/img/kvm/fooling-pafish/pafish-clear-1.png>
+<br/>
+<img src=../assets/img/kvm/fooling-pafish/pafish-clear-2.png>
+<br/>
