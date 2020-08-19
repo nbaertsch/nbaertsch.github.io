@@ -1,6 +1,6 @@
 ---
 title: Fooling pafish
-layout: 
+layout: post
 category: post
 ---
 
