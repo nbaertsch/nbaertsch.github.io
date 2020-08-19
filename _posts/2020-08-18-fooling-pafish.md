@@ -96,15 +96,15 @@ Paranoid Fish (pafish) is "a demonstration tool that employs several techniques 
 <br/>
 
 ## Before KVM RDTSC patch
-<img src="../assets/img/kv/pafish/pafish-orig">
+<img src="../assets/img/kvm/fooling-pafish/pafish-orig">
 <br/>
 
 ## After KVM RDTSC patch
-<img src="../assets/img/kvm/pafish/pafish-kvm.png">
+<img src="../assets/img/kvm/fooling-pafish/pafish-kvm.png">
 <br/>
 
 We can also quickly get rid of the CPUID hypervisor feature bit with ``<feature policy='disable' name='hypervisor'/>``.  Note you will see a performance because you no-longer get hyperv enlightenments in your guest.
-<img src="../assets/img/kvm/pafish/pafish-hypervisor-disabled.png">
+<img src="../assets/img/kvm/fooling-pafish/pafish-hypervisor-disabled.png">
 <br/>
 
 # Further Reading
