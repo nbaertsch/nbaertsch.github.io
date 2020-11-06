@@ -1,6 +1,7 @@
 ---
-title: packet sniff my onboard WiFi
+title: Packet Sniff My Onboard WiFi
 layout: post
+category: post
 ---
 
 
