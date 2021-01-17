@@ -1,5 +1,5 @@
 ---
-title: HTB Starting Point: Archetype
+title: HTB Starting Point - Archetype
 layout: post
 category: writeup
 ---
