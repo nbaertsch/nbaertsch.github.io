@@ -15,6 +15,7 @@ Recon the machine.  Notice RPC and ms-sql.
 
 
 Use smbclient to enumerate network shares.
+<br/>
 <img src="../assets/img/htb/startingpoint/Archetype/smb1.png">
 <br/>
 
