@@ -156,7 +156,7 @@ I tried a few different ways, but eventually I got a reverse shell by uploading 
 <br/>
 
 <br/>
-My reverse shell kept getting killed, I assume there is a script that kills it after a certain period of time so the site doesnt lock up forever.  In the short time I had the shell, I managed to exfil some files from the webserver using netcat.  I did'nt get captures of this because of how fast the connection was killed between tries.
+My reverse shell kept getting killed, I assume there is a script that kills it after a certain period of time so the site doesnt lock up forever.  In the short time I had the shell, I managed to exfil some files from the webserver using netcat.  I didn't get captures of this because of how fast the connection was killed between tries.
 <br/>
 
 <br/>
@@ -173,7 +173,7 @@ Now I don't know php at all, but it looks like this is what is causing our rever
 <br/>
 
 <br/>
-<img src="../assets/img/htb/startingpoint/Vaccine/postgress.png">
+<img src="../assets/img/htb/startingpoint/Vaccine/postgres.png">
 <br/>
 Surprisingly we can just ssh in as the postgres user.  I then uploaded linpeas using netcat and ran it, tee'ing the ouptput to peas.out.
 <br/>
