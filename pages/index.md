@@ -18,6 +18,6 @@ permalink: /
 
 <br/><script src="https://www.hackthebox.eu/badge/279144"></script><br/>
 	
-<br/><script src="https://tryhackme.com/badge/38736"></script><br/>
+<script src="https://tryhackme.com/badge/38736"></script>
 
 </div>

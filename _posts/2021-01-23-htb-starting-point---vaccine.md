@@ -154,7 +154,7 @@ I used the command execution to call wget and grab a reverse shell python script
 <br/>
 I tried a few different ways, but eventually I got a reverse shell by uploading a pure python script and calling python3 from the injection.
 <br/>
-
+d
 <br/>
 My reverse shell kept getting killed, I assume there is a script that kills it after a certain period of time so the site doesnt lock up forever.  In the short time I had the shell, I managed to exfil some files from the webserver using netcat.  I didn't get captures of this because of how fast the connection was killed between tries.
 <br/>
