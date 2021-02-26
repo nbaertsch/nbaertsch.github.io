@@ -1,6 +1,7 @@
 ---
 title: HTB - Ready
 layout: post
+category: writeup
 ---
 
 #Ready

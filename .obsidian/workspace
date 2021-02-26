@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "f11b347845163c3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e4c32bd90ff884f",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_posts/2020-05-21-try-hack-me-ice.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9a4aa3d84bc09767",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5173ea8368398cc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9da2f1ea1e24b8a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c537fbc1396b2ddf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7e811fe9755a6640",
+    "type": "split",
+    "children": [
+      {
+        "id": "2b51dbb2958bab22",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88058af213594e59",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/2020-05-21-try-hack-me-ice.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "_posts/2020-05-21-try-hack-me-ice.md",
+    "_posts/2020-08-19-fooling-pafsih-part-2.md",
+    "_posts/2020-08-18-fooling-pafish.md",
+    "_posts/2020-04-06-hello-world.md"
+  ]
+}

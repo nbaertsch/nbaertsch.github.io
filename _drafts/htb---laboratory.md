@@ -5,7 +5,7 @@ category: writeup
 ---
 
 #Laboratory
-Easy my ass.  No interesting preamble here. I need to walk away from my computer after this one.
+Definitely not an easy box for me.  Ready and Passage were both easier in my oppinion.  The Arbitrary File Read turned RCE was  alot of fun to read about and try out though. 
 
 <br/>
 <img src="../assets/img/htb/easy/Passage/nmap.png">
@@ -91,7 +91,7 @@ I grabed a proper tcp reverse shell because the msf payload one was giving me pr
 <br/>
 <img src="../assets/img/htb/easy/Passage/rails-console.png">
 <br/>
-Reading up on gitlab documentation, I am starting to get a feel for how the usr path is going to go.  Here, I am testing the functionality of this rails console command.  The default storage behavior of gitlab is to hash project storage locations, instead of just storing in human readable locations on disk.  I am hoping I can guess dexter's project name? Not sure yet.
+Reading up on gitlab documentation, I am starting to get a feel for how the user path is going to go.  Here, I am testing the functionality of this rails console command.  The default storage behavior of gitlab is to hash project storage locations, instead of just storing in human readable locations on disk.  I am hoping I can guess dexter's project name? Not sure yet.
 
 
 <br/>
