@@ -1,6 +1,6 @@
 ---
 title: eJPT Review
-layout: 
+layout: post
 category: post
 ---
 
@@ -19,7 +19,7 @@ At the end of the course, there are 3 Black Box PenTest labs.  These labs are si
 <br/>
 
 ## The Exam
-While I can't say much about the specifics of the exam, I will say it was the best part of the course by far.  When you start the exam you are sent a Letter of Engagement from a mock company who's network you will be testing.  The presentation of the exam is exciting and it makes it feel as real as possible.  You will also get some important resources for use on the exam, hope you didn't skip the wireshark or routing sections.  The Black Box labs are "bite-sized" environments, while the exam is a larger and more fleshed out experience.  There a good number of boxes, and you get a chance to identify routers and pivot around the network in a way I havent been exposed to before this exam.
+While I can't say much about the specifics of the exam, I will say it was the best part of the course by far.  It's 20 multiple choice questions and you can only get the answers from pentesting the environemnt.  You need at least 15/20 to pass, and no report is required.  When you start the exam you are sent a Letter of Engagement from a mock company who's network you will be testing.  The presentation of the exam is exciting and it makes it feel as real as possible.  You will also get some important resources for use on the exam, hope you didn't skip the wireshark or routing sections.  The Black Box labs are "bite-sized" environments, while the exam is a larger and more fleshed out experience.  There a good number of boxes, and you get a chance to identify routers and pivot around the network in a way I havent been exposed to before this exam.
 <br/>
 
 Overall, I was pleasantly surprised at the quallity of the labs and the exam.  At $200 for an exam voucher and $0 for the course, It's hard to tell anyone NOT to go for this cert.
