@@ -3,13 +3,15 @@ title: HTB - Passage
 layout: post
 category: writeup
 ---
-
+<br/>
+<img src="../assets/img/htb/medium/Passage/title-card.png">
+<br/>
 #Passage
-This is the first Medium, and the most "realistic", box that I've done.  The foothold and user privesc were pretty straightforward, but the privesc to root was VERY cool!  It involves taking advantage of an insecure d-bus interface (the one used by USBCreator on Ubuntu).  In the version of Ubuntu present on this box, any member of the sudo group can launch USBCreator and take advantage of this vulnerablity.  This has since been patched, and now password authentication is required to run USBCreator.
+This is the first Medium, and the most "realistic", box that I've done.  The foothold and user privesc were pretty straightforward, but the privesc to root was VERY cool!  It involves taking advantage of an insecure d-bus interface (the one used by USBCreator on Ubuntu).  In the version of Ubuntu present on this box, any member of the sudo group can launch USBCreator and take advantage of this vulnerability.  This has since been patched, and now password authentication is required to run USBCreator.
 
 <br/>
 
-Read more about the USBCreator privelage escelation [here](https://unit42.paloaltonetworks.com/usbcreator-d-bus-privilege-escalation-in-ubuntu-desktop/)
+Read more about the USBCreator privilege escalation [here](https://unit42.paloaltonetworks.com/usbcreator-d-bus-privilege-escalation-in-ubuntu-desktop/)
 
 <br/>
 <img src="../assets/img/htb/medium/Passage/nmap.png">
@@ -19,7 +21,7 @@ Initial nmap scan shows OpenSSH and Apache on the expected ports.
 <br/>
 <img src="../assets/img/htb/medium/Passage/fail2ban.png">
 <br/>
-I got temporarily IP blacklisted while using gobuster to bruteforce dirs.  Looking at the page it is easy to see what happened.
+I got temporarily IP blacklisted while using gobuster to brute-force directories.  Looking at the page it is easy to see what happened.
 
 <br/>
 <img src="../assets/img/htb/medium/Passage/poweredby.png">
@@ -34,7 +36,7 @@ A quick Google brings me to this exploit.  I don't know the version running, but
 <br/>
 <img src="../assets/img/htb/medium/Passage/rce2.png">
 <br/>
-Awesome, so we shouild be able to use that exact exploit for remote code execution.  The code loks like it also dumps hashes, let's try it.  
+Awesome, so we should be able to use that exact exploit for remote code execution.  The code looks like it also dumps hashes, let's try it.  
 
 <br/>
 <img src="../assets/img/htb/medium/Passage/rce3.png">
@@ -49,7 +51,7 @@ I ran hashid to get the hashcat mode.
 <br/>
 <img src="../assets/img/htb/medium/Passage/hashcat1.png">
 <br/>
-Basic abridged rockyou wordlist with no hashcat rules cracked exactley one hash.  I tried other wordlists and rules, but only the single hash could be cracked.
+Basic abridged rockyou word-list with no hashcat rules cracked exactly one hash.  I tried other word-lists and rules, but only the single hash could be cracked.
 
 <br/>
 <img src="../assets/img/htb/medium/Passage/users.png">
@@ -64,12 +66,12 @@ Only key authentication for both user accounts. Bummer.  Back to the Web-shell.
 <br/>
 <img src="../assets/img/htb/medium/Passage/sudoversion.png">
 <br/>
-I could run the new sudo buffer overflow, Baron Samedit.  But that's definitley not the intedned solution.  Let's keep that in our back pocket for root.
+I could run the new sudo buffer overflow, Baron Samedit.  But that's definitely not the intended solution.  Let's keep that in our back pocket for root.
 
 <br/>
 <img src="../assets/img/htb/medium/Passage/paul.png">
 <br/>
-Checking credential reuse with su.  Got the paul account and dumped the ssh key.
+Checking credential reuse with su.  Got the Paul account and dumped the ssh key.
 
 <br/>
 <img src="../assets/img/htb/medium/Passage/cve-2019-13272.png">
@@ -101,12 +103,12 @@ The linpeas logo never gets old.
 <br/>
 <img src="../assets/img/htb/medium/Passage/USBcreator.png">
 <br/>
-So nothing new in linpeas, I am going to check this.  I ignored it earlier because I assumed I needed nadav's sudo or adm group membership to privesc to root.  Realizing I don't have password to do anything with sudo, and not seing anything of the bat in fail2ban logs (I really though this would be it...), I will attempt this usbcreator thing.
+So nothing new in linpeas, I am going to check this.  I ignored it earlier because I assumed I needed nadav's sudo or adm group membership to privesc to root.  Realizing I don't have password to do anything with sudo, and not seeing anything of the bat in fail2ban logs (I really though this would be it...), I will attempt this usbcreator thing.
 
 <br/>
 <img src="../assets/img/htb/medium/Passage/test.png">
 <br/>
-Okay this is going a bit over my head, but I know it's the right track because: 1. It works, and 2. the original blog post about the discovery of this vuln used the name 'nadav' in the poc.  
+Okay this is going a bit over my head, but I know it's the right track because: 1. It works, and 2. the original blog post about the discovery of this vulnerability used the name 'nadav' in the poc.  
 
 <br/>
 

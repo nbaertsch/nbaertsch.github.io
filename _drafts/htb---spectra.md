@@ -32,7 +32,7 @@ Heres something interesting.
 <br/>
 <img src="../assets/img/htb/medium/Passage/mysql-creds.png">
 <br/>
-Viewing the source of that page shows the MySQL creds.
+Viewing the source of that page shows the MySQL credentials.
 
 <br/>
 <img src="../assets/img/htb/medium/Passage/db-denied.png">
@@ -52,7 +52,7 @@ Admin access gets an easy shell upload.
 <br/>
 <img src="../assets/img/htb/medium/Passage/katie.png">
 <br/>
-Reading `/etc/passwd` shows us the user we will likely be trying to get.a[]
+Reading `/etc/passwd` shows us the user we will likely be trying to get.
 
 <br/>
 <img src="../assets/img/htb/medium/Passage/db-creds.png">
@@ -62,7 +62,7 @@ These are the real db creds for the live site.
 <br/>
 <img src="../assets/img/htb/medium/Passage/my-sql1.png">
 <br/>
-We can succesfully get into the MySQL DB, but it's kinda shitty without a tty.
+We can successfully get into the MySQL DB, but it's kinda shitty without a tty.
 
 <br/>
 <img src="../assets/img/htb/medium/Passage/autologin.png">
@@ -79,7 +79,7 @@ Not sure who that password is for, I mean it can't really be root right.
 <br/>
 <img src="../assets/img/htb/medium/Passage/userflag.png">
 <br/>
-As expected, this is katie's password.  We can aslo see we are part of the developer group!
+As expected, this is Katie's password.  We can also see we are part of the developer group!
 
 <br/>
 <img src="../assets/img/htb/medium/Passage/init-test.png">
@@ -99,9 +99,9 @@ That's convenient.  We're on the right track clearly.  I have noticed during thi
 <br/>
 <img src="../assets/img/htb/medium/Passage/test-root.png">
 <br/>
-I had problems running this quick enough so I wrote it to katie's home dir so I wouldnt have to keep re writing the job config.
+I had problems running this quick enough so I wrote it to Katie's home directory so I wouldn't have to keep re writing the job config.
 
 <br/>
 <img src="../assets/img/htb/medium/Passage/rootflag.png">
 <br/>
-Here you can see that the test job starts and actuall does what I want it to this time.
+Here you can see that the test job starts and actual does what I want it to this time.
