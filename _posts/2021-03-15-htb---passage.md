@@ -6,7 +6,7 @@ category: writeup
 <br/>
 <img src="../assets/img/htb/medium/Passage/title-card.png">
 <br/>
-#Passage
+# Passage
 This is the first Medium, and the most "realistic", box that I've done.  The foothold and user privesc were pretty straightforward, but the privesc to root was VERY cool!  It involves taking advantage of an insecure d-bus interface (the one used by USBCreator on Ubuntu).  In the version of Ubuntu present on this box, any member of the sudo group can launch USBCreator and take advantage of this vulnerability.  This has since been patched, and now password authentication is required to run USBCreator.
 
 <br/>
