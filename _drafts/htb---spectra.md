@@ -84,7 +84,7 @@ As expected, this is Katie's password.  We can also see we are part of the devel
 <br/>
 <img src="../assets/img/htb/medium/Passage/init-test.png">
 <br/>
-This is definitely something important for privesc.  I looked on the internet to learn more about wha these are.  Read [here](https://askubuntu.com/questions/5039/what-is-the-difference-between-etc-init-and-etc-init-d). 
+This is definitely something important for privesc.  I looked on the internet to learn more about what these are.  Read [here](https://askubuntu.com/questions/5039/what-is-the-difference-between-etc-init-and-etc-init-d). 
 
 <br/>
 <img src="../assets/img/htb/medium/Passage/orig-init.png">
