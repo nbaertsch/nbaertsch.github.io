@@ -43,7 +43,7 @@ Okay.  Gitlab.
 Let's register for an account.
 
 <br/>
-<img src="../assets/img/htb/easy/Laboratory/emaildoamin.png">
+<img src="../assets/img/htb/easy/Laboratory/emaildomain.png">
 <br/>
 Okay...
 
