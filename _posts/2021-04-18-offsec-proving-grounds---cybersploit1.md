@@ -60,6 +60,6 @@ Kernel exploits are okay, I could use the practice even if theres not much to th
 <br/>
 <img src="../assets/img/pg-play/easy/CyberSploit1/kernel-ofs-exploit.png">
 <br/>
-Had to compile on the box, and not on my machine.  I newed to get smarter on compilation flags and architectures and what not.
+Had to compile on the box, and not on my machine.  I need to get smarter on compilation flags and architectures and what not.
 
 I won't show the root flag.  You get the point.
