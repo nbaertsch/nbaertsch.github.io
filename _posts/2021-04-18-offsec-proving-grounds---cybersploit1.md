@@ -13,9 +13,10 @@ THIS IS A MACHINE FOR COMPLETE BEGINNER , THERE ARE THREE FALGS AVAILABLE IN THI
 
 FROM THIS VMs YOU WILL LEARN ABOUT ENCODER-DECODER & EXPLOIT-DB.
 ```
+As you can see, the bar has been set pretty high...
 
 ## My Take
-Easy box, but User is pretty poorly done.  Root is was just 'okay'.  Underwhelming for my first PG box...
+Easy box, but User is pretty poorly done.  Root was just 'okay'.  Underwhelming for my first PG box...
 
 
 ## Root it!
@@ -33,7 +34,7 @@ Credentials in an HTML comment.
 <br/>
 <img src="../assets/img/pg-play/easy/CyberSploit1/gobuster1.png">
 <br/>
-Some interesting finds from gobuster.  Trying to brute force with hydra at the saem time with the found username and rockyou-35, it is not looking promising.
+Some interesting finds from gobuster.  Trying to brute force with hydra at the same time with the found username and rockyou-35, it is not looking promising.
 
 <br/>
 <img src="../assets/img/pg-play/easy/CyberSploit1/youtube.png">
